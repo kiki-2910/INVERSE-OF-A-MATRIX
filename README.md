@@ -15,14 +15,12 @@ import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 
-# Given matrix
 A = np.array([
     [2, 1, 1],
     [1, 1, 1],
     [1, -1, 2]
 ], dtype=float)
 
-# Find inverse
 inverse = np.linalg.inv(A)
 
 print(inverse)
