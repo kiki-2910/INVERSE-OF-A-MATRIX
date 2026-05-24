@@ -11,6 +11,7 @@ To write a python program to find the inverse of a matrix
 ### Step 4: Display the inverse matrix.
 
 ## Program:
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -24,6 +25,7 @@ A = np.array([
 inverse = np.linalg.inv(A)
 
 print(inverse)
+```
 ## Output:
 <img width="1267" height="771" alt="image" src="https://github.com/user-attachments/assets/f3f2bb63-de3a-47b3-bef4-fecc16c122ce" />
 <img width="935" height="213" alt="image" src="https://github.com/user-attachments/assets/86744501-47eb-4221-a669-f1c0e1e85b5e" />
